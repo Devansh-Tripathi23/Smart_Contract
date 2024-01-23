@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "chai": "^4.4.0",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.10.0",
+    "web3": "^4.3.0"
+  },
+  "name": "my_first_contract",
+  "version": "1.0.0",
+  "description": "Transaction_Tracker",
+  "main": "index.js",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.3",
+    "hardhat": "^2.19.4",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": []
+}

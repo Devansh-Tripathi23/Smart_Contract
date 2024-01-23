@@ -1,7 +1,7 @@
 const { ethers } = require("hardhat");
 
 async function main() {
-  const TransactionTracker = await ethers.getContractFactory("TransactionTracke");
+  const TransactionTracker = await ethers.getContractFactory("TransactionTracker");
   const transactionTracker = await TransactionTracker.deploy();
 
   // Uncomment this line if you want to log information about the deployed contract instance
