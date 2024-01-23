@@ -6,7 +6,7 @@ async function main() {
   const web3 = new Web3('https://sepolia-rollup.arbitrum.io/rpc');
 
   // 0xe8faf1a3193b79ff93d3859d13d585d7bb24157f
-  const contractAddress = "0xe8faf1a3193b79ff93d3859d13d585d7bb24157f";
+  const contractAddress = "0xe8faf1a3193b79ff93d3859d13d585d7bb24157";
 
   try {
     const contract = new web3.eth.Contract(contractABI.abi, contractAddress);
