@@ -3,7 +3,7 @@ const { ethers } = require("hardhat");
 const { beforeEach, describe } = require("mocha");
 
 describe("TransactionTracker", function () {
-  let owner;    //sender
+  let owner;    
   let receiver;
   let TransactionTracker;
 
